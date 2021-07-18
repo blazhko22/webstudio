@@ -4,6 +4,7 @@
     --white-color: #FFFFFF;
     --blue-color: #2196F3;
     --black-color: #000000;
+    --gray-button: #F5F4FA;
 }
 body {
     background-color: var(--white-color);
@@ -34,7 +35,8 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--blue-color);
 }
 .info-link {
@@ -45,7 +47,8 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.info-link:hover {
+.info-link:hover,
+.info-link:focus {
     color: var(--blue-color);
 }
 /*Секция Герой*/
@@ -105,4 +108,36 @@ ul {
     line-height: 1,71;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+/*Портфолио css*/
+.portfolio-link {
+    color: var(--blue-color);
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
+
+}
+.key {
+    color: var(--secondary-text-color);
+    background-color: var(--gray-button);
+}
+.key:hover,
+.key:focus {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+.text-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.indent-text {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--main-text-color);
+}
+.link-navigation {
+   text-decoration: none; 
 }
