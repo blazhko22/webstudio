@@ -22,15 +22,18 @@ ul {
 .link-logo {
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
     font-family: Raleway, sans-serif;
-    color: var(--black-color);
+    color: var(--blue-color);
     text-decoration: none;
+}
+.logo-black {
+    color: black;
 }
 .nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     color: var(--secondary-text-color);
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -42,7 +45,7 @@ ul {
 .info-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     color: var(--main-text-color);
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -52,16 +55,28 @@ ul {
     color: var(--blue-color);
 }
 /*Секция Герой*/
+.hero {
+    background-color: #2F303A;
+}
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    color: var(--white-color);
+    text-transform: uppercase;
 }
 .button {
     color: var(--white-color);
     background-color: var(--blue-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 /*Особености*/
 .specifics-title {      
@@ -70,16 +85,17 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+    text-transform: uppercase;
 }
 .specifics-text {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
 }
 /*Чем мы занимаемся*/
 .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
     color: var(--secondary-text-color);
 }
@@ -87,39 +103,54 @@ ul {
 .team-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-align: center;
     color: var(--secondary-text-color);
 }
-.specifics-text {
+.team-text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
 } 
 /*Подвал*/
+.footer {
+    background-color: #2F303A;
+}
+.address-footer {
+    font-style: normal;
+}
 .address-maps {
     text-decoration: none;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     color: var(--white-color);
 }
 .footer-info {
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
-/*Портфолио css*/
-.portfolio-link {
-    color: var(--blue-color);
+.logo-white {
+    color: white;
 }
-.portfolio-link:hover,
-.portfolio-link:focus {
+
+/*Портфолио css*/
+.general-link {
+    color: var(--blue-color);
+    text-decoration: none;
+}
+.general-link:hover,
+.general-link:focus {
 
 }
 .key {
     color: var(--secondary-text-color);
     background-color: var(--gray-button);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
 }
 .key:hover,
 .key:focus {
